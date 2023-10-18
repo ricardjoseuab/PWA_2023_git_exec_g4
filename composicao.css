@@ -12,8 +12,10 @@ p {
   line-height: 1.5em;
 }
 
-.base {
+div.base {
   background-color: #eeeeee;
+  width: 960px;
+  margin: auto;
 }
 
 .bloco1 {
