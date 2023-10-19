@@ -1,20 +1,39 @@
-section.bloco1 {
-    width: 200px;
-    /* width: 50%; */
-    float: left;
- }
+body {
+  font-family: "Georgia", sans-serif;
+  font-size: 20px;
+}
 
- div.base {
-   width: 960px; margin: auto;
-   } 
- /* ALINEA 4. ORGANIZAÇÃO EM TRÊS COLUNAS  */
- section.bloco2 { 
+h1,
+h2 {
+  margin: 0;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+section.bloco1 {
+  background-color: orange;
+  width: 200px;
+  /* width: 50%; */
+  float: left;
+}
+
+div.base {
+  background-color: #eeeeee;
+  width: 960px;
+  margin: auto;
+}
+/* ALINEA 4. ORGANIZAÇÃO EM TRÊS COLUNAS  */
+section.bloco2 {
+  background-color: green;
   /* margin-left: 200px;*/
-   /* margin-left: 50%; */
-  margin-left: 0;  /* a) Remova a margem esquerda de 200px da section da classe "bloco2". */
-  width: 500px;   /* b) Modifique a largura da section da classe "bloco2" para 500px. */
-  float: left;   /* c) Altere o valor da propriedade float da section da classe "bloco2" para left. */
+  /* margin-left: 50%; */
+  margin-left: 0; /* a) Remova a margem esquerda de 200px da section da classe "bloco2". */
+  width: 500px; /* b) Modifique a largura da section da classe "bloco2" para 500px. */
+  float: left; /* c) Altere o valor da propriedade float da section da classe "bloco2" para left. */
 }
 section.bloco3 {
-  margin-left: 700px;   /* d) Defina uma margem esquerda de 700px para a section da classe "bloco3". */
+  background-color: red;
+  margin-left: 700px; /* d) Defina uma margem esquerda de 700px para a section da classe "bloco3". */
 }
