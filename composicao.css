@@ -1,1 +1,6 @@
- 
+/* Regra para que as imagens dentro da section da classe “bloco2” 
+   tenham margem de 10px e propriedade float como left */
+.bloco2 img {
+    margin: 10px;
+    float: left;
+}
