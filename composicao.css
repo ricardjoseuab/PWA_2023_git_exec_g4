@@ -13,20 +13,20 @@ p {
 }
 
 section.bloco1 {
-  background-color: orange;
+  background-color: orange; /* 5) se remover esta linha, nao fica como o resultado esperado indicado na ficha */
   width: 200px;
   /* width: 50%; */
   float: left;
 }
 
 div.base {
-  background-color: #eeeeee;
+  background-color: #eeeeee; /* 5) se remover esta linha, nao fica como o resultado esperado indicado na ficha */
   width: 960px;
   margin: auto;
 }
 /* ALINEA 4. ORGANIZAÇÃO EM TRÊS COLUNAS  */
 section.bloco2 {
-  background-color: green;
+  background-color: green; /* 5) se remover esta linha, nao fica como o resultado esperado indicado na ficha */
   /* margin-left: 200px;*/
   /* margin-left: 50%; */
   margin-left: 0; /* a) Remova a margem esquerda de 200px da section da classe "bloco2". */
@@ -34,6 +34,13 @@ section.bloco2 {
   float: left; /* c) Altere o valor da propriedade float da section da classe "bloco2" para left. */
 }
 section.bloco3 {
-  background-color: red;
+  background-color: red; /* 5) se remover esta linha, nao fica como o resultado esperado indicado na ficha */
   margin-left: 700px; /* d) Defina uma margem esquerda de 700px para a section da classe "bloco3". */
+}
+
+/* Regra para que as imagens dentro da section da classe “bloco2” 
+   tenham margem de 10px e propriedade float como left */
+.bloco2 img {
+    margin: 10px;
+    float: left;
 }
